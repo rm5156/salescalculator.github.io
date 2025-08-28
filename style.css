@@ -1,0 +1,39 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+#app {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0,0,0,0.6);
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+
+#app input, #app button {
+    font-size: 16px;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+#app button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#sky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
