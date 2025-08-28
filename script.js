@@ -125,3 +125,4 @@ window.addEventListener('resize', () => {
 });
 
 animate();
+
